@@ -13,6 +13,8 @@
 		1F89B35E1D91456C0095631A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F89B35C1D91456C0095631A /* Main.storyboard */; };
 		1F89B3601D91456C0095631A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F89B35F1D91456C0095631A /* Assets.xcassets */; };
 		1F89B3631D91456C0095631A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F89B3611D91456C0095631A /* LaunchScreen.storyboard */; };
+		1FF7E7211D93757E0010248A /* ZY_BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7E71E1D93757E0010248A /* ZY_BaseViewController.m */; };
+		1FF7E7221D93757E0010248A /* ZY_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7E7201D93757E0010248A /* ZY_ViewController.m */; };
 		C47F6A772AC1D27B6DBDF973 /* libPods-163Music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B93B9CABE8A43EBB7FED954 /* libPods-163Music.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,10 @@
 		1F89B35F1D91456C0095631A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F89B3621D91456C0095631A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F89B3641D91456C0095631A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF7E71D1D93757E0010248A /* ZY_BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZY_BaseViewController.h; sourceTree = "<group>"; };
+		1FF7E71E1D93757E0010248A /* ZY_BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZY_BaseViewController.m; sourceTree = "<group>"; };
+		1FF7E71F1D93757E0010248A /* ZY_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZY_ViewController.h; sourceTree = "<group>"; };
+		1FF7E7201D93757E0010248A /* ZY_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZY_ViewController.m; sourceTree = "<group>"; };
 		2B93B9CABE8A43EBB7FED954 /* libPods-163Music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-163Music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C42DBA50511ED66024F814 /* Pods-163Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-163Music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-163Music/Pods-163Music.debug.xcconfig"; sourceTree = "<group>"; };
 		AEE2A2918C093BBB33FE9A91 /* Pods-163Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-163Music.release.xcconfig"; path = "Pods/Target Support Files/Pods-163Music/Pods-163Music.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +75,7 @@
 				1F89B3571D91456B0095631A /* AppDelegate.m */,
 				1F89B3591D91456B0095631A /* ViewController.h */,
 				1F89B35A1D91456B0095631A /* ViewController.m */,
+				1FF7E71C1D93757E0010248A /* VC */,
 				1F89B35C1D91456C0095631A /* Main.storyboard */,
 				1F89B35F1D91456C0095631A /* Assets.xcassets */,
 				1F89B3611D91456C0095631A /* LaunchScreen.storyboard */,
@@ -84,6 +91,17 @@
 				1F89B3541D91456B0095631A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FF7E71C1D93757E0010248A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				1FF7E71D1D93757E0010248A /* ZY_BaseViewController.h */,
+				1FF7E71E1D93757E0010248A /* ZY_BaseViewController.m */,
+				1FF7E71F1D93757E0010248A /* ZY_ViewController.h */,
+				1FF7E7201D93757E0010248A /* ZY_ViewController.m */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 		6B6A6FFC7A484110383D81C9 /* Frameworks */ = {
@@ -227,7 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F89B35B1D91456B0095631A /* ViewController.m in Sources */,
+				1FF7E7221D93757E0010248A /* ZY_ViewController.m in Sources */,
 				1F89B3581D91456B0095631A /* AppDelegate.m in Sources */,
+				1FF7E7211D93757E0010248A /* ZY_BaseViewController.m in Sources */,
 				1F89B3551D91456B0095631A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

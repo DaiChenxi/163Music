@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ZY_ViewController.h"
+#import "ZY_BaseViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    ZY_BaseViewController *baseNAv = [[ZY_BaseViewController alloc] initWithRootViewController:[[ZY_ViewController alloc] init]];
+    self.window.rootViewController = baseNAv;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
