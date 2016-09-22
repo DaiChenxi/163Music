@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ZY_ViewController.h"
-#import "ZY_BaseViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,16 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-<<<<<<< HEAD:163Music/163Music/AppDelegate.m
-    
-=======
-
->>>>>>> efbd76c8ed6ab0ef600a6311a8d43463c25f692b:163Music/163Music/Other/AppDelegate.m
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    ZY_BaseViewController *baseNAv = [[ZY_BaseViewController alloc] initWithRootViewController:[[ZY_ViewController alloc] init]];
-    self.window.rootViewController = baseNAv;
-    [self.window makeKeyAndVisible];
-    
+    // Override point for customization after application launch.
     return YES;
 }
 

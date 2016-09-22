@@ -8,46 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		1F89B3551D91456B0095631A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F89B3541D91456B0095631A /* main.m */; };
-		1F89B3601D91456C0095631A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F89B35F1D91456C0095631A /* Assets.xcassets */; };
-		1F89B3631D91456C0095631A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F89B3611D91456C0095631A /* LaunchScreen.storyboard */; };
-<<<<<<< HEAD
-		1FF7E7211D93757E0010248A /* ZY_BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7E71E1D93757E0010248A /* ZY_BaseViewController.m */; };
-		1FF7E7221D93757E0010248A /* ZY_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7E7201D93757E0010248A /* ZY_ViewController.m */; };
-=======
-		A18056471D914D8800798576 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = A18056461D914D8800798576 /* FXBlurView.m */; };
-		A180564C1D91534200798576 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A180564A1D91534200798576 /* AppDelegate.m */; };
-		A18056531D91541D00798576 /* ZY_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18056521D91541D00798576 /* ZY_ViewController.m */; };
-		A18056561D9154BF00798576 /* ZY_BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18056551D9154BF00798576 /* ZY_BaseViewController.m */; };
->>>>>>> efbd76c8ed6ab0ef600a6311a8d43463c25f692b
+		1F89B3581D91456B0095631A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F89B3571D91456B0095631A /* AppDelegate.m */; };
+		1F89B35B1D91456B0095631A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F89B35A1D91456B0095631A /* ViewController.m */; };
+		1F89B35E1D91456C0095631A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F89B35C1D91456C0095631A /* Main.storyboard */; };
 		C47F6A772AC1D27B6DBDF973 /* libPods-163Music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B93B9CABE8A43EBB7FED954 /* libPods-163Music.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F89B3501D91456B0095631A /* 163Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 163Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F89B3541D91456B0095631A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1F89B35F1D91456C0095631A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = 163Music/Assets.xcassets; sourceTree = "<group>"; };
-		1F89B3621D91456C0095631A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-<<<<<<< HEAD
+		1F89B3561D91456B0095631A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F89B3571D91456B0095631A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F89B3591D91456B0095631A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F89B35A1D91456B0095631A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F89B35D1D91456C0095631A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F89B3641D91456C0095631A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FF7E71D1D93757E0010248A /* ZY_BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZY_BaseViewController.h; sourceTree = "<group>"; };
-		1FF7E71E1D93757E0010248A /* ZY_BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZY_BaseViewController.m; sourceTree = "<group>"; };
-		1FF7E71F1D93757E0010248A /* ZY_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZY_ViewController.h; sourceTree = "<group>"; };
-		1FF7E7201D93757E0010248A /* ZY_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZY_ViewController.m; sourceTree = "<group>"; };
 		2B93B9CABE8A43EBB7FED954 /* libPods-163Music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-163Music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C42DBA50511ED66024F814 /* Pods-163Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-163Music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-163Music/Pods-163Music.debug.xcconfig"; sourceTree = "<group>"; };
-=======
-		1F89B3641D91456C0095631A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = 163Music/Info.plist; sourceTree = "<group>"; };
-		2B93B9CABE8A43EBB7FED954 /* libPods-163Music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-163Music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75C42DBA50511ED66024F814 /* Pods-163Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-163Music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-163Music/Pods-163Music.debug.xcconfig"; sourceTree = "<group>"; };
-		A18056451D914D8800798576 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
-		A18056461D914D8800798576 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
-		A18056491D91534200798576 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A180564A1D91534200798576 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A18056511D91541D00798576 /* ZY_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZY_ViewController.h; sourceTree = "<group>"; };
-		A18056521D91541D00798576 /* ZY_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZY_ViewController.m; sourceTree = "<group>"; };
-		A18056541D9154BF00798576 /* ZY_BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZY_BaseViewController.h; sourceTree = "<group>"; };
-		A18056551D9154BF00798576 /* ZY_BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZY_BaseViewController.m; sourceTree = "<group>"; };
->>>>>>> efbd76c8ed6ab0ef600a6311a8d43463c25f692b
 		AEE2A2918C093BBB33FE9A91 /* Pods-163Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-163Music.release.xcconfig"; path = "Pods/Target Support Files/Pods-163Music/Pods-163Music.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,9 +45,6 @@
 			children = (
 				1F89B3521D91456B0095631A /* 163Music */,
 				1F89B3511D91456B0095631A /* Products */,
-				1F89B35F1D91456C0095631A /* Assets.xcassets */,
-				1F89B3611D91456C0095631A /* LaunchScreen.storyboard */,
-				1F89B3641D91456C0095631A /* Info.plist */,
 				884919A4204A996BC4D4ECA8 /* Pods */,
 				6B6A6FFC7A484110383D81C9 /* Frameworks */,
 			);
@@ -87,21 +61,12 @@
 		1F89B3521D91456B0095631A /* 163Music */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				1F89B3561D91456B0095631A /* AppDelegate.h */,
 				1F89B3571D91456B0095631A /* AppDelegate.m */,
 				1F89B3591D91456B0095631A /* ViewController.h */,
 				1F89B35A1D91456B0095631A /* ViewController.m */,
-				1FF7E71C1D93757E0010248A /* VC */,
 				1F89B35C1D91456C0095631A /* Main.storyboard */,
-				1F89B35F1D91456C0095631A /* Assets.xcassets */,
-				1F89B3611D91456C0095631A /* LaunchScreen.storyboard */,
 				1F89B3641D91456C0095631A /* Info.plist */,
-=======
-				A18056501D91540F00798576 /* VC */,
-				A18056481D91534200798576 /* Other */,
-				A18056431D914D8800798576 /* Lib */,
->>>>>>> efbd76c8ed6ab0ef600a6311a8d43463c25f692b
 				1F89B3531D91456B0095631A /* Supporting Files */,
 			);
 			path = 163Music;
@@ -113,17 +78,6 @@
 				1F89B3541D91456B0095631A /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1FF7E71C1D93757E0010248A /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				1FF7E71D1D93757E0010248A /* ZY_BaseViewController.h */,
-				1FF7E71E1D93757E0010248A /* ZY_BaseViewController.m */,
-				1FF7E71F1D93757E0010248A /* ZY_ViewController.h */,
-				1FF7E7201D93757E0010248A /* ZY_ViewController.m */,
-			);
-			path = VC;
 			sourceTree = "<group>";
 		};
 		6B6A6FFC7A484110383D81C9 /* Frameworks */ = {
@@ -143,46 +97,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-=======
-		A18056431D914D8800798576 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				A18056441D914D8800798576 /* FXBlurView */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		A18056441D914D8800798576 /* FXBlurView */ = {
-			isa = PBXGroup;
-			children = (
-				A18056451D914D8800798576 /* FXBlurView.h */,
-				A18056461D914D8800798576 /* FXBlurView.m */,
-			);
-			path = FXBlurView;
-			sourceTree = "<group>";
-		};
-		A18056481D91534200798576 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				A18056491D91534200798576 /* AppDelegate.h */,
-				A180564A1D91534200798576 /* AppDelegate.m */,
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		A18056501D91540F00798576 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				A18056511D91541D00798576 /* ZY_ViewController.h */,
-				A18056521D91541D00798576 /* ZY_ViewController.m */,
-				A18056541D9154BF00798576 /* ZY_BaseViewController.h */,
-				A18056551D9154BF00798576 /* ZY_BaseViewController.m */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
->>>>>>> efbd76c8ed6ab0ef600a6311a8d43463c25f692b
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,7 +126,6 @@
 		1F89B3481D91456B0095631A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = ZY_;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "戴晨惜";
 				TargetAttributes = {
@@ -246,8 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F89B3631D91456C0095631A /* LaunchScreen.storyboard in Resources */,
-				1F89B3601D91456C0095631A /* Assets.xcassets in Resources */,
+				1F89B35E1D91456C0095631A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,31 +218,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				1F89B35B1D91456B0095631A /* ViewController.m in Sources */,
-				1FF7E7221D93757E0010248A /* ZY_ViewController.m in Sources */,
 				1F89B3581D91456B0095631A /* AppDelegate.m in Sources */,
-				1FF7E7211D93757E0010248A /* ZY_BaseViewController.m in Sources */,
-=======
-				A18056531D91541D00798576 /* ZY_ViewController.m in Sources */,
-				A18056471D914D8800798576 /* FXBlurView.m in Sources */,
->>>>>>> efbd76c8ed6ab0ef600a6311a8d43463c25f692b
 				1F89B3551D91456B0095631A /* main.m in Sources */,
-				A18056561D9154BF00798576 /* ZY_BaseViewController.m in Sources */,
-				A180564C1D91534200798576 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1F89B3611D91456C0095631A /* LaunchScreen.storyboard */ = {
+		1F89B35C1D91456C0095631A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1F89B3621D91456C0095631A /* Base */,
+				1F89B35D1D91456C0095631A /* Base */,
 			);
-			name = LaunchScreen.storyboard;
-			path = 163Music;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -433,7 +335,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A8943Y967M;
 				INFOPLIST_FILE = 163Music/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CX.163Music;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,7 +348,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A8943Y967M;
 				INFOPLIST_FILE = 163Music/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CX.163Music;
 				PRODUCT_NAME = "$(TARGET_NAME)";
