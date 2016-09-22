@@ -13,7 +13,6 @@
 		1F89B35E1D91456C0095631A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F89B35C1D91456C0095631A /* Main.storyboard */; };
 		1F89B3601D91456C0095631A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F89B35F1D91456C0095631A /* Assets.xcassets */; };
 		1F89B3631D91456C0095631A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F89B3611D91456C0095631A /* LaunchScreen.storyboard */; };
-		A18056471D914D8800798576 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = A18056461D914D8800798576 /* FXBlurView.m */; };
 		C47F6A772AC1D27B6DBDF973 /* libPods-163Music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B93B9CABE8A43EBB7FED954 /* libPods-163Music.a */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +29,6 @@
 		1F89B3641D91456C0095631A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B93B9CABE8A43EBB7FED954 /* libPods-163Music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-163Music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C42DBA50511ED66024F814 /* Pods-163Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-163Music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-163Music/Pods-163Music.debug.xcconfig"; sourceTree = "<group>"; };
-		A18056451D914D8800798576 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
-		A18056461D914D8800798576 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
 		AEE2A2918C093BBB33FE9A91 /* Pods-163Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-163Music.release.xcconfig"; path = "Pods/Target Support Files/Pods-163Music/Pods-163Music.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,7 +65,6 @@
 		1F89B3521D91456B0095631A /* 163Music */ = {
 			isa = PBXGroup;
 			children = (
-				A18056431D914D8800798576 /* Lib */,
 				1F89B3561D91456B0095631A /* AppDelegate.h */,
 				1F89B3571D91456B0095631A /* AppDelegate.m */,
 				1F89B3591D91456B0095631A /* ViewController.h */,
@@ -105,23 +101,6 @@
 				AEE2A2918C093BBB33FE9A91 /* Pods-163Music.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		A18056431D914D8800798576 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				A18056441D914D8800798576 /* FXBlurView */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		A18056441D914D8800798576 /* FXBlurView */ = {
-			isa = PBXGroup;
-			children = (
-				A18056451D914D8800798576 /* FXBlurView.h */,
-				A18056461D914D8800798576 /* FXBlurView.m */,
-			);
-			path = FXBlurView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F89B35B1D91456B0095631A /* ViewController.m in Sources */,
-				A18056471D914D8800798576 /* FXBlurView.m in Sources */,
 				1F89B3581D91456B0095631A /* AppDelegate.m in Sources */,
 				1F89B3551D91456B0095631A /* main.m in Sources */,
 			);
