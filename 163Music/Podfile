@@ -4,5 +4,7 @@ target '163Music' do
 
 pod 'AFNetworking'
 
+pod 'FXBlurView'
+
 end
 
