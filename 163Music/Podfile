@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+
+target '163Music' do
+
+pod 'AFNetworking'
+
+pod 'FXBlurView'
+
+end
+
