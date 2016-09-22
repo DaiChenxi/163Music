@@ -1,481 +1,786 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		1F89B3551D91456B0095631A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F89B3541D91456B0095631A /* main.m */; };
-		1F89B3601D91456C0095631A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F89B35F1D91456C0095631A /* Assets.xcassets */; };
-		1F89B3631D91456C0095631A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F89B3611D91456C0095631A /* LaunchScreen.storyboard */; };
-<<<<<<< HEAD
-		1FF7E7211D93757E0010248A /* ZY_BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7E71E1D93757E0010248A /* ZY_BaseViewController.m */; };
-		1FF7E7221D93757E0010248A /* ZY_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7E7201D93757E0010248A /* ZY_ViewController.m */; };
-=======
-		A18056471D914D8800798576 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = A18056461D914D8800798576 /* FXBlurView.m */; };
-		A180564C1D91534200798576 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A180564A1D91534200798576 /* AppDelegate.m */; };
-		A18056531D91541D00798576 /* ZY_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18056521D91541D00798576 /* ZY_ViewController.m */; };
-		A18056561D9154BF00798576 /* ZY_BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18056551D9154BF00798576 /* ZY_BaseViewController.m */; };
->>>>>>> efbd76c8ed6ab0ef600a6311a8d43463c25f692b
-		C47F6A772AC1D27B6DBDF973 /* libPods-163Music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B93B9CABE8A43EBB7FED954 /* libPods-163Music.a */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		1F89B3501D91456B0095631A /* 163Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 163Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F89B3541D91456B0095631A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1F89B35F1D91456C0095631A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = 163Music/Assets.xcassets; sourceTree = "<group>"; };
-		1F89B3621D91456C0095631A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		1F89B3641D91456C0095631A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FF7E71D1D93757E0010248A /* ZY_BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZY_BaseViewController.h; sourceTree = "<group>"; };
-		1FF7E71E1D93757E0010248A /* ZY_BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZY_BaseViewController.m; sourceTree = "<group>"; };
-		1FF7E71F1D93757E0010248A /* ZY_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZY_ViewController.h; sourceTree = "<group>"; };
-		1FF7E7201D93757E0010248A /* ZY_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZY_ViewController.m; sourceTree = "<group>"; };
-		2B93B9CABE8A43EBB7FED954 /* libPods-163Music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-163Music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75C42DBA50511ED66024F814 /* Pods-163Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-163Music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-163Music/Pods-163Music.debug.xcconfig"; sourceTree = "<group>"; };
-=======
-		1F89B3641D91456C0095631A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = 163Music/Info.plist; sourceTree = "<group>"; };
-		2B93B9CABE8A43EBB7FED954 /* libPods-163Music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-163Music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		75C42DBA50511ED66024F814 /* Pods-163Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-163Music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-163Music/Pods-163Music.debug.xcconfig"; sourceTree = "<group>"; };
-		A18056451D914D8800798576 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
-		A18056461D914D8800798576 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
-		A18056491D91534200798576 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A180564A1D91534200798576 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A18056511D91541D00798576 /* ZY_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZY_ViewController.h; sourceTree = "<group>"; };
-		A18056521D91541D00798576 /* ZY_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZY_ViewController.m; sourceTree = "<group>"; };
-		A18056541D9154BF00798576 /* ZY_BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZY_BaseViewController.h; sourceTree = "<group>"; };
-		A18056551D9154BF00798576 /* ZY_BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZY_BaseViewController.m; sourceTree = "<group>"; };
->>>>>>> efbd76c8ed6ab0ef600a6311a8d43463c25f692b
-		AEE2A2918C093BBB33FE9A91 /* Pods-163Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-163Music.release.xcconfig"; path = "Pods/Target Support Files/Pods-163Music/Pods-163Music.release.xcconfig"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		1F89B34D1D91456B0095631A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C47F6A772AC1D27B6DBDF973 /* libPods-163Music.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		1F89B3471D91456B0095631A = {
-			isa = PBXGroup;
-			children = (
-				1F89B3521D91456B0095631A /* 163Music */,
-				1F89B3511D91456B0095631A /* Products */,
-				1F89B35F1D91456C0095631A /* Assets.xcassets */,
-				1F89B3611D91456C0095631A /* LaunchScreen.storyboard */,
-				1F89B3641D91456C0095631A /* Info.plist */,
-				884919A4204A996BC4D4ECA8 /* Pods */,
-				6B6A6FFC7A484110383D81C9 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		1F89B3511D91456B0095631A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1F89B3501D91456B0095631A /* 163Music.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1F89B3521D91456B0095631A /* 163Music */ = {
-			isa = PBXGroup;
-			children = (
-<<<<<<< HEAD
-				1F89B3561D91456B0095631A /* AppDelegate.h */,
-				1F89B3571D91456B0095631A /* AppDelegate.m */,
-				1F89B3591D91456B0095631A /* ViewController.h */,
-				1F89B35A1D91456B0095631A /* ViewController.m */,
-				1FF7E71C1D93757E0010248A /* VC */,
-				1F89B35C1D91456C0095631A /* Main.storyboard */,
-				1F89B35F1D91456C0095631A /* Assets.xcassets */,
-				1F89B3611D91456C0095631A /* LaunchScreen.storyboard */,
-				1F89B3641D91456C0095631A /* Info.plist */,
-=======
-				A18056501D91540F00798576 /* VC */,
-				A18056481D91534200798576 /* Other */,
-				A18056431D914D8800798576 /* Lib */,
->>>>>>> efbd76c8ed6ab0ef600a6311a8d43463c25f692b
-				1F89B3531D91456B0095631A /* Supporting Files */,
-			);
-			path = 163Music;
-			sourceTree = "<group>";
-		};
-		1F89B3531D91456B0095631A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1F89B3541D91456B0095631A /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1FF7E71C1D93757E0010248A /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				1FF7E71D1D93757E0010248A /* ZY_BaseViewController.h */,
-				1FF7E71E1D93757E0010248A /* ZY_BaseViewController.m */,
-				1FF7E71F1D93757E0010248A /* ZY_ViewController.h */,
-				1FF7E7201D93757E0010248A /* ZY_ViewController.m */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		6B6A6FFC7A484110383D81C9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2B93B9CABE8A43EBB7FED954 /* libPods-163Music.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		884919A4204A996BC4D4ECA8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				75C42DBA50511ED66024F814 /* Pods-163Music.debug.xcconfig */,
-				AEE2A2918C093BBB33FE9A91 /* Pods-163Music.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-<<<<<<< HEAD
-=======
-		A18056431D914D8800798576 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				A18056441D914D8800798576 /* FXBlurView */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
-		A18056441D914D8800798576 /* FXBlurView */ = {
-			isa = PBXGroup;
-			children = (
-				A18056451D914D8800798576 /* FXBlurView.h */,
-				A18056461D914D8800798576 /* FXBlurView.m */,
-			);
-			path = FXBlurView;
-			sourceTree = "<group>";
-		};
-		A18056481D91534200798576 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				A18056491D91534200798576 /* AppDelegate.h */,
-				A180564A1D91534200798576 /* AppDelegate.m */,
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		A18056501D91540F00798576 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				A18056511D91541D00798576 /* ZY_ViewController.h */,
-				A18056521D91541D00798576 /* ZY_ViewController.m */,
-				A18056541D9154BF00798576 /* ZY_BaseViewController.h */,
-				A18056551D9154BF00798576 /* ZY_BaseViewController.m */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
->>>>>>> efbd76c8ed6ab0ef600a6311a8d43463c25f692b
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		1F89B34F1D91456B0095631A /* 163Music */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F89B3671D91456C0095631A /* Build configuration list for PBXNativeTarget "163Music" */;
-			buildPhases = (
-				9A59D9A2CEFC1FCC970FB3DD /* [CP] Check Pods Manifest.lock */,
-				1F89B34C1D91456B0095631A /* Sources */,
-				1F89B34D1D91456B0095631A /* Frameworks */,
-				1F89B34E1D91456B0095631A /* Resources */,
-				2B4A6B1F8C3364B1872F238B /* [CP] Embed Pods Frameworks */,
-				AD7324A14C532D0D32107D2B /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = 163Music;
-			productName = 163Music;
-			productReference = 1F89B3501D91456B0095631A /* 163Music.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		1F89B3481D91456B0095631A /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				CLASSPREFIX = ZY_;
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "戴晨惜";
-				TargetAttributes = {
-					1F89B34F1D91456B0095631A = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = A8943Y967M;
-						ProvisioningStyle = Automatic;
-					};
-				};
-			};
-			buildConfigurationList = 1F89B34B1D91456B0095631A /* Build configuration list for PBXProject "163Music" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 1F89B3471D91456B0095631A;
-			productRefGroup = 1F89B3511D91456B0095631A /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				1F89B34F1D91456B0095631A /* 163Music */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		1F89B34E1D91456B0095631A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F89B3631D91456C0095631A /* LaunchScreen.storyboard in Resources */,
-				1F89B3601D91456C0095631A /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2B4A6B1F8C3364B1872F238B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-163Music/Pods-163Music-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9A59D9A2CEFC1FCC970FB3DD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		AD7324A14C532D0D32107D2B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-163Music/Pods-163Music-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		1F89B34C1D91456B0095631A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-<<<<<<< HEAD
-				1F89B35B1D91456B0095631A /* ViewController.m in Sources */,
-				1FF7E7221D93757E0010248A /* ZY_ViewController.m in Sources */,
-				1F89B3581D91456B0095631A /* AppDelegate.m in Sources */,
-				1FF7E7211D93757E0010248A /* ZY_BaseViewController.m in Sources */,
-=======
-				A18056531D91541D00798576 /* ZY_ViewController.m in Sources */,
-				A18056471D914D8800798576 /* FXBlurView.m in Sources */,
->>>>>>> efbd76c8ed6ab0ef600a6311a8d43463c25f692b
-				1F89B3551D91456B0095631A /* main.m in Sources */,
-				A18056561D9154BF00798576 /* ZY_BaseViewController.m in Sources */,
-				A180564C1D91534200798576 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1F89B3611D91456C0095631A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F89B3621D91456C0095631A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = 163Music;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		1F89B3651D91456C0095631A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1F89B3661D91456C0095631A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		1F89B3681D91456C0095631A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75C42DBA50511ED66024F814 /* Pods-163Music.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A8943Y967M;
-				INFOPLIST_FILE = 163Music/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CX.163Music;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		1F89B3691D91456C0095631A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEE2A2918C093BBB33FE9A91 /* Pods-163Music.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A8943Y967M;
-				INFOPLIST_FILE = 163Music/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.CX.163Music;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		1F89B34B1D91456B0095631A /* Build configuration list for PBXProject "163Music" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F89B3651D91456C0095631A /* Debug */,
-				1F89B3661D91456C0095631A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1F89B3671D91456C0095631A /* Build configuration list for PBXNativeTarget "163Music" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F89B3681D91456C0095631A /* Debug */,
-				1F89B3691D91456C0095631A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 1F89B3481D91456B0095631A /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>1F89B3471D91456B0095631A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1F89B3521D91456B0095631A</string>
+				<string>1F89B3511D91456B0095631A</string>
+				<string>884919A4204A996BC4D4ECA8</string>
+				<string>6B6A6FFC7A484110383D81C9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B3481D91456B0095631A</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0800</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>&#25140;&#26216;&#24796;</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>1F89B34F1D91456B0095631A</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.0</string>
+						<key>DevelopmentTeam</key>
+						<string>A8943Y967M</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>1F89B34B1D91456B0095631A</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>1F89B3471D91456B0095631A</string>
+			<key>productRefGroup</key>
+			<string>1F89B3511D91456B0095631A</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>1F89B34F1D91456B0095631A</string>
+			</array>
+		</dict>
+		<key>1F89B34B1D91456B0095631A</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>1F89B3651D91456C0095631A</string>
+				<string>1F89B3661D91456C0095631A</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>1F89B34C1D91456B0095631A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1F89B35B1D91456B0095631A</string>
+				<string>1F89B3581D91456B0095631A</string>
+				<string>1F89B3551D91456B0095631A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>1F89B34D1D91456B0095631A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C47F6A772AC1D27B6DBDF973</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>1F89B34E1D91456B0095631A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1F89B3631D91456C0095631A</string>
+				<string>1F89B3601D91456C0095631A</string>
+				<string>1F89B35E1D91456C0095631A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>1F89B34F1D91456B0095631A</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>1F89B3671D91456C0095631A</string>
+			<key>buildPhases</key>
+			<array>
+				<string>9A59D9A2CEFC1FCC970FB3DD</string>
+				<string>1F89B34C1D91456B0095631A</string>
+				<string>1F89B34D1D91456B0095631A</string>
+				<string>1F89B34E1D91456B0095631A</string>
+				<string>2B4A6B1F8C3364B1872F238B</string>
+				<string>AD7324A14C532D0D32107D2B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>163Music</string>
+			<key>productName</key>
+			<string>163Music</string>
+			<key>productReference</key>
+			<string>1F89B3501D91456B0095631A</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>1F89B3501D91456B0095631A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>163Music.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>1F89B3511D91456B0095631A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1F89B3501D91456B0095631A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B3521D91456B0095631A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1F89B3561D91456B0095631A</string>
+				<string>1F89B3571D91456B0095631A</string>
+				<string>1F89B3591D91456B0095631A</string>
+				<string>1F89B35A1D91456B0095631A</string>
+				<string>1F89B35C1D91456C0095631A</string>
+				<string>1F89B35F1D91456C0095631A</string>
+				<string>1F89B3611D91456C0095631A</string>
+				<string>1F89B3641D91456C0095631A</string>
+				<string>1F89B3531D91456B0095631A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>163Music</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B3531D91456B0095631A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1F89B3541D91456B0095631A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B3541D91456B0095631A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B3551D91456B0095631A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1F89B3541D91456B0095631A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1F89B3561D91456B0095631A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B3571D91456B0095631A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B3581D91456B0095631A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1F89B3571D91456B0095631A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1F89B3591D91456B0095631A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B35A1D91456B0095631A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B35B1D91456B0095631A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1F89B35A1D91456B0095631A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1F89B35C1D91456C0095631A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1F89B35D1D91456C0095631A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B35D1D91456C0095631A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B35E1D91456C0095631A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1F89B35C1D91456C0095631A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1F89B35F1D91456C0095631A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B3601D91456C0095631A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1F89B35F1D91456C0095631A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1F89B3611D91456C0095631A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1F89B3621D91456C0095631A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B3621D91456C0095631A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B3631D91456C0095631A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1F89B3611D91456C0095631A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1F89B3641D91456C0095631A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F89B3651D91456C0095631A</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>1F89B3661D91456C0095631A</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>1F89B3671D91456C0095631A</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>1F89B3681D91456C0095631A</string>
+				<string>1F89B3691D91456C0095631A</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>1F89B3681D91456C0095631A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>75C42DBA50511ED66024F814</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>A8943Y967M</string>
+				<key>INFOPLIST_FILE</key>
+				<string>163Music/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.CX.163Music</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>1F89B3691D91456C0095631A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>AEE2A2918C093BBB33FE9A91</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>A8943Y967M</string>
+				<key>INFOPLIST_FILE</key>
+				<string>163Music/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.CX.163Music</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>2B4A6B1F8C3364B1872F238B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-163Music/Pods-163Music-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>2B93B9CABE8A43EBB7FED954</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-163Music.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>6B6A6FFC7A484110383D81C9</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2B93B9CABE8A43EBB7FED954</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>75C42DBA50511ED66024F814</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-163Music.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-163Music/Pods-163Music.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>884919A4204A996BC4D4ECA8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>75C42DBA50511ED66024F814</string>
+				<string>AEE2A2918C093BBB33FE9A91</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9A59D9A2CEFC1FCC970FB3DD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>AD7324A14C532D0D32107D2B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-163Music/Pods-163Music-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>AEE2A2918C093BBB33FE9A91</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-163Music.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-163Music/Pods-163Music.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C47F6A772AC1D27B6DBDF973</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2B93B9CABE8A43EBB7FED954</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>1F89B3481D91456B0095631A</string>
+</dict>
+</plist>
